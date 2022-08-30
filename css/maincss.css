@@ -1,0 +1,57 @@
+*{
+    padding: 2px;
+}
+
+body{
+    background-image: url("pictures/rocket.jpg");
+    background-size: cover;
+}
+
+p, a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white
+}
+
+h1,h2{
+    font-family: 'Comfortaa', cursive;
+    color: white
+}
+
+.video{
+    background-color: rgba(177, 177, 177, 0.534);
+    border-radius: 10px;
+}
+
+h1{
+    background-color: rgb(253, 130, 47);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+nav ul{
+    overflow: hidden;
+    background-color: rgb(253, 130, 47);
+    border-radius: 10px;
+}
+
+nav ul li{
+    list-style-type: none;
+    float: left;
+}
+
+nav ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+nav ul li a:hover:not(.active) {
+    background-color: rgb(253, 181, 47)
+    }
+    .active {
+    font-style: italic;
+    background-color: rgb(253, 47, 243)
+    }
