@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ATM</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body style="background-color:#f5f5f5">
+	<div class="atm">
+		<div class="screen">
+			<div class="page page-welcome">
+				<h1>Welcome to the ATM</h1>
+				<p>Please insert your card to begin</p>
+				<button id="insert-card">Insert Card</button>
+			</div>
+
+			<div class="page page-pin">
+				<h1>Please enter your PIN</h1>
+				<form>
+					<input type="password" placeholder="PIN">
+					<button type="submit">Submit</button>
+				</form>
+			</div>
+
+			<div class="page page-transactions">
+				<h1>Select a transaction</h1>
+				<ul>
+					<li><a href="#">Withdraw</a></li>
+					<li><a href="#">Deposit</a></li>
+					<li><a href="#">Check Balance</a></li>
+				</ul>
+				<button id="cancel-transaction">Cancel</button>
+			</div>
+
+			<div class="page page-withdraw">
+				<h1>How much would you like to withdraw?</h1>
+				<form>
+					<input type="number" placeholder="Amount">
+					<button type="submit">Withdraw</button>
+				</form>
+				<button id="cancel-withdrawal">Cancel</button>
+			</div>
+
+			<div class="page page-deposit">
+				<h1>Please insert your deposit</h1>
+				<form>
+					<input type="number" placeholder="Amount">
+					<button type="submit">Deposit</button>
+				</form>
+				<button id="cancel-deposit">Cancel</button>
+			</div>
+
+			<div class="page page-balance">
+				<h1>Your current balance is:</h1>
+				<p>$1000</p>
+				<button id="finish-transaction">Finish</button>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
